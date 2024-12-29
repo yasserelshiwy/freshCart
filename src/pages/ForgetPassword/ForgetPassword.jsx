@@ -94,10 +94,7 @@ export default function ForgetPassword() {
                 <i className=" text-xm fa-solid fa-paper-plane"></i>
               </span>
             </button>
-            <Link
-              to={"/forgetPassword"}
-              className="text-blue-600  underline text-md"
-            >
+            <Link to={"/Login"} className="text-blue-600  underline text-md">
               go to login
             </Link>
           </div>

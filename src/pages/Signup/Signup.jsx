@@ -164,12 +164,12 @@ export default function Signup() {
                   onBlur={formik.handleBlur}
                   name="password"
                 />
-                <button
+                <div
                   onClick={showPassword}
                   className=" absolute right-[10px] top-[8px]"
                 >
                   <i className="fa-regular fa-eye text-gray-500 text-lg"></i>
-                </button>
+                </div>
               </div>
               {formik.errors.password && formik.touched.password && (
                 <p className=" text-sm text-red-600 bg-red-100 py-2 px-2 mt-1  rounded-xl border border-red-300">
@@ -195,12 +195,12 @@ export default function Signup() {
                   onBlur={formik.handleBlur}
                   name="rePassword"
                 />
-                <button
+                <div
                   onClick={showPassword}
                   className=" absolute right-[10px] top-[8px]"
                 >
                   <i className="fa-regular fa-eye text-gray-500 text-lg"></i>
-                </button>
+                </div>
               </div>
               {formik.errors.rePassword && formik.touched.rePassword && (
                 <p className=" text-sm text-red-600 bg-red-100 py-2 px-2 mt-1  rounded-xl border border-red-300">
