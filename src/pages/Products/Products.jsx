@@ -106,7 +106,7 @@ export default function Products() {
             </div>
           ) : (
             <>
-              <div className="inear grid w-[90%] ml-[15px]  md:w-full sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 py-8">
+              <div className="inear grid w-[90%] ml-[11px]  md:w-full sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 py-8">
                 {allProuduct === null ? (
                   <div className="iner col-span-6">
                     <Loading />

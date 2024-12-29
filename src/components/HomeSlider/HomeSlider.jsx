@@ -34,7 +34,7 @@ export default function HomeSlider() {
             <div className="w-full h-full">
               <SwiperSlide className="rounded-xl overflow-hidden relative">
                 <img className="w-full h-full " src={slidImgs} alt="" />
-                <div className=" absolute text-gray-800 top-8 md:top-16 left-6 md:left-10 space-y-2 sm:space-y-8 ">
+                <div className=" absolute text-gray-800 top-4 md:top-16 left-6 md:left-10 space-y-2 sm:space-y-8 ">
                   <p className="text-lg font-medium">
                     <span>Exclusive Offer</span>{" "}
                     <span className="bg-red-700 p-1  text-sm rounded-lg text-white">
@@ -62,7 +62,7 @@ export default function HomeSlider() {
               </SwiperSlide>
               <SwiperSlide className="rounded-xl overflow-hidden relative">
                 <img className="w-full h-full " src={slidImge} alt="" />
-                <div className=" absolute top-8 md:top-16 left-6 md:left-10 space-y-10 sm:space-y-8 ">
+                <div className=" absolute text-gray-800 top-4 md:top-16 left-6 md:left-10 space-y-2 sm:space-y-8 ">
                   <p className="text-lg dark:text-gray-950 font-medium">
                     <span>Exclusive Offer</span>{" "}
                     <span className="bg-red-700 p-1  text-sm rounded-lg text-white">
@@ -95,7 +95,7 @@ export default function HomeSlider() {
               </SwiperSlide>
               <SwiperSlide className="rounded-xl overflow-hidden relative">
                 <img className="w-full h-full " src={slidImgo} alt="" />
-                <div className=" absolute top-8 md:top-16 left-6 md:left-10 space-y-2 sm:space-y-8 ">
+                <div className=" absolute text-gray-800 top-4 md:top-16 left-6 md:left-10 space-y-2 sm:space-y-8 ">
                   <p className="text-lg dark:text-gray-950 font-medium">
                     <span>Exclusive Offer</span>{" "}
                     <span className="bg-red-700 p-1  text-sm rounded-lg text-white">

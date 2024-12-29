@@ -12,7 +12,7 @@ export default function WishListItem({ productinfo }) {
             <img src={imageCover} alt="" className="w-24 h-24 rounded-full" />
           </td>
           <td className="p-4 ">
-            <h2 className="text-xl text-gray-700 dark:text-gray-200  font-semibold w-[200px] line-clamp-2">
+            <h2 className="text-xl text-center text-gray-700 dark:text-gray-200  font-semibold w-[200px] line-clamp-2">
               {title}
             </h2>
           </td>

@@ -36,7 +36,7 @@ export default function Home() {
           All products
         </h2>
       </div>
-      <div className="inear w-[90%] ml-[15px]  md:w-full grid sm:grid-cols-2  md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-5 py-4">
+      <div className="inear w-[90%] ml-[11px]  md:w-full grid sm:grid-cols-2  md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-5 py-4">
         {data.data.data.map((product) => (
           <Card key={product.id} productInfo={product} />
         ))}

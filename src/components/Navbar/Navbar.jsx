@@ -58,7 +58,7 @@ export default function Navbar() {
               className="flex items-center justify-center gap-2 mr-2"
             >
               <img src={logo} alt="logo freshcart" className="w-8" />
-              <h1 className="font-bold text-black text-2xl dark:text-white">
+              <h1 className="font-bold text-black text-lg sm:text-xl  md:text-2xl dark:text-white">
                 Fresh Cart
               </h1>
             </Link>
